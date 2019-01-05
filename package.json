@@ -1,0 +1,40 @@
+{
+  "_from": "git+https://github.com/natanielkd/edriven-cordova-plugin-whatsapp.git",
+  "_id": "edriven-cordova-plugin-whatsapp@1.0.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/edriven-cordova-plugin-whatsapp",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/natanielkd/edriven-cordova-plugin-whatsapp.git",
+    "rawSpec": "https://github.com/natanielkd/edriven-cordova-plugin-whatsapp.git",
+    "saveSpec": "git+https://github.com/natanielkd/edriven-cordova-plugin-whatsapp.git",
+    "fetchSpec": "https://github.com/natanielkd/edriven-cordova-plugin-whatsapp.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/natanielkd/edriven-cordova-plugin-whatsapp.git#8a94fee537b81f0022199334ac2880203c9f8561",
+  "_spec": "https://github.com/natanielkd/edriven-cordova-plugin-whatsapp.git",
+  "_where": "/Users/nataniel/Dev/kp/entregaapp2",
+  "bundleDependencies": false,
+  "cordova_name": "Whatsapp",
+  "deprecated": false,
+  "description": "edriven Cordova Whatsapp Plugin",
+  "engines": [],
+  "issue": "https://github.com/natanielkd/edriven-cordova-plugin-whatsapp/issues",
+  "keywords": [
+    "whatsapp"
+  ],
+  "license": "MIT",
+  "name": "edriven-cordova-plugin-whatsapp",
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "repo": "https://github.com/natanielkd/edriven-cordova-plugin-whatsapp.git",
+  "version": "1.0.0"
+}

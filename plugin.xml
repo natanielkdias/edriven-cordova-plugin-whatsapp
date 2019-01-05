@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="edriven-cordova-whatsapp-plugin" version="1.0.0">
+    <name>edriven-Cordova-WhatsApp-Plugin</name>
+    <description>edriven Cordova WhatsApp Plugin</description>
+    <author>Nataniel Kubiak Dias</author>
+    <license>Apache 2.0</license>
+    <keywords>cordova,whatsapp</keywords>
+    <js-module src="www/index.js" name="index">
+        <clobbers target="cordova.plugins.Whatsapp" />
+    </js-module>
+
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="Whatsapp">
+                <param name="android-package" value="edriven.cordova.plugins.Whatsapp" />
+                <param name="onload" value="true" />
+            </feature>
+        </config-file>
+        <source-file src="src/android/code.java" target-dir="src/edriven/cordova/plugins/whatsapp" />
+    </platform>
+    <!--
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="Device">
+                <param name="ios-package" value="CDVDevice"/>
+            </feature>
+        </config-file>
+        <header-file src="src/ios/CDVDevice.h" />
+        <source-file src="src/ios/CDVDevice.m" />
+    </platform>
+    -->
+</plugin>
