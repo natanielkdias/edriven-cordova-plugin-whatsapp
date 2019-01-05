@@ -16,17 +16,15 @@
                 <param name="onload" value="true" />
             </feature>
         </config-file>
-        <source-file src="src/android/code.java" target-dir="src/edriven/cordova/plugins/whatsapp" />
+        <source-file src="src/android/Whatsapp.java" target-dir="src/edriven/cordova/plugins/whatsapp" />
     </platform>
-    <!--
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
-            <feature name="Device">
-                <param name="ios-package" value="CDVDevice"/>
+            <feature name="Whatsapp">
+                <param name="ios-package" value="Whatsapp"/>
             </feature>
         </config-file>
-        <header-file src="src/ios/CDVDevice.h" />
-        <source-file src="src/ios/CDVDevice.m" />
+        <header-file src="src/ios/Whatsapp.h" />
+        <source-file src="src/ios/Whatsapp.m" />
     </platform>
-    -->
 </plugin>

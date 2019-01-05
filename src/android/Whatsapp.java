@@ -7,7 +7,6 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import android.content.Intent;
 import android.net.Uri;
-import android.telephony.PhoneNumberUtils;
 
 public class Whatsapp extends CordovaPlugin {
     public static final String ACTION_WHATSAPP_SEND = "send";
@@ -18,7 +17,7 @@ public class Whatsapp extends CordovaPlugin {
         try {
             if (ACTION_WHATSAPP_SEND.equals(action)) {
 
-                String url = "https://wa.me/" + PhoneNumberUtils.stripSeparators(args.getString(0));
+                String url = "https://wa.me/" + args.getString(0);
                 Intent i = new Intent(Intent.ACTION_VIEW);
                 i.setData(Uri.parse(url));
                 this.cordova.getActivity().startActivity(i);
