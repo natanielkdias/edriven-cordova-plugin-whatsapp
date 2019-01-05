@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="edriven-cordova-whatsapp-plugin" version="1.0.0">
-    <name>edriven-Cordova-WhatsApp-Plugin</name>
-    <description>edriven Cordova WhatsApp Plugin</description>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="edriven-cordova-plugin-whatsapp" version="1.0.0">
+    <name>edriven Cordova Plugin WhatsApp</name>
+    <description>edriven Cordova Plugin WhatsApp</description>
     <author>Nataniel Kubiak Dias</author>
     <license>Apache 2.0</license>
     <keywords>cordova,whatsapp</keywords>

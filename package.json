@@ -17,9 +17,9 @@
     "#USER",
     "/"
   ],
-  "_resolved": "git+https://github.com/natanielkd/edriven-cordova-plugin-whatsapp.git#8a94fee537b81f0022199334ac2880203c9f8561",
+  "_resolved": "git+https://github.com/natanielkd/edriven-cordova-plugin-whatsapp.git",
   "_spec": "https://github.com/natanielkd/edriven-cordova-plugin-whatsapp.git",
-  "_where": "/Users/nataniel/Dev/kp/entregaapp2",
+  "_where": "",
   "bundleDependencies": false,
   "cordova_name": "Whatsapp",
   "deprecated": false,
